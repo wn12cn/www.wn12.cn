@@ -71,18 +71,46 @@ speed_test() {
 
 speed() {
     speed_test '' 'Speedtest.net'
-    speed_test '21541' 'Los Angeles, US'
-    speed_test '43860' 'Dallas, US'
-    speed_test '40879' 'Montreal, CA'
-    speed_test '24215' 'Paris, FR'
-    speed_test '28922' 'Amsterdam, NL'
-    speed_test '24447' 'Shanghai, CN'
-    speed_test '26352' 'Nanjing, CN'
-    speed_test '27594' 'Guangzhou, CN'
-    speed_test '32155' 'Hongkong, CN'
-    speed_test '6527'  'Seoul, KR'
-    speed_test '7311'  'Singapore, SG'
-    speed_test '21569' 'Tokyo, JP'
+    speed_test '3633'  'Shanghai     CT'
+    speed_test '17145' 'HeFei    5G  CT'
+    speed_test '26352' 'Nanjing  5G  CT'
+    speed_test '5396'  'SuZhou   5G  CT'
+    speed_test '5317'  'YangZhou 5G  CT'
+    speed_test '23844' 'Wuhan        CT'
+    speed_test '29353' 'Wuhan    5G  CT'
+    speed_test '28225' 'ChangSha 5G  CT'
+    speed_test '3973'  'Lanzhou  5G  CT'
+    speed_test '35722' 'TianJin  5G  CT'
+    speed_test '28946' 'ChongQin 5G  CT'
+    speed_test '36663' 'JiangSu  5G  CT'
+    speed_test '51772' 'FuZhu        CT'
+    speed_test '29071' 'ChengDou     CT'
+    speed_test '41852' 'ZhengZhou5G  CT'
+    speed_test '27594' 'GuangZhou5G  CT'
+    speed_test '24447' 'ShangHai 5G  CU'
+    speed_test '45170' 'WuXi         CU'
+    speed_test '4870'  'ChangSha     CU'
+    speed_test '36646' 'ZhenZhou 5G  CU'
+    speed_test '43752' 'BeiJing      CU'
+    speed_test '37235' 'ShenYang     CU'
+    speed_test '54625' 'JiangXi      CU'
+    speed_test '56354' 'FuZhou       CU'
+    speed_test '29105' 'ShanXi       CM'
+    speed_test '26404' 'HeFei    5G  CM'
+    speed_test '15863' 'NanNing  5G  CM'
+    speed_test '6715'  'HangZhou 5G  CM'
+    speed_test '54312' 'HangZhou 5G  CM'
+    speed_test '16145' 'LangZhou     CM'
+    speed_test '16171' 'FuZhou       CM'
+    speed_test '16398' 'GuiYang      CM'
+    speed_test '29105' 'XiAn     5G  CM'
+    speed_test '41910' 'ZhenZhou 5G  CM'
+    speed_test '44176' 'ZhenZhou 5G  CM'
+    speed_test '25858' 'BeiJing      CM'
+    speed_test '26940' 'YinChuan     CM'
+    speed_test '4575'  'ChengDou     CM'
+    speed_test '35527' 'ChengDou     GD'
+    speed_test '5530'  'ChongQin    CCN'
 }
 
 io_test() {
@@ -228,7 +256,7 @@ install_speedtest() {
 
 print_intro() {
     echo "-------------------- A Bench.sh Script By Teddysun -------------------"
-    echo " Version            : $(_green v2023-06-10)"
+    echo " Version            : $(_green v2023-08-20)"
     echo " Usage              : $(_red "wget -qO- bench.sh | bash")"
 }
 

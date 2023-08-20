@@ -255,9 +255,9 @@ install_speedtest() {
 }
 
 print_intro() {
-    echo "-------------------- A Bench.sh Script By Teddysun -------------------"
+    echo "-------------------- A bench_guonei.sh Script By wn12.cn -------------------"
     echo " Version            : $(_green v2023-08-20)"
-    echo " Usage              : $(_red "wget -qO- bench.sh | bash")"
+    echo " Usage              : $(_red "https://www.wn12.cn/3122.html")"
 }
 
 # Get System information

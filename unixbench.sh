@@ -2,7 +2,7 @@
 #==============================================================#
 #   Description:  Unixbench script                             #
 #   Author: Teddysun <i@teddysun.com>                          #
-#   Intro:  https://teddysun.com/245.html                      #
+#   Intro:  https://www.wn12.cn/3130.html                      #
 #==============================================================#
 cur_dir=/opt/unixbench
 
@@ -30,7 +30,7 @@ if [ -s UnixBench5.1.3.tgz ]; then
     echo "UnixBench5.1.3.tgz [found]"
 else
     echo "UnixBench5.1.3.tgz not found!!!download now..."
-    if ! wget -c https://dl.lamp.sh/files/UnixBench5.1.3.tgz; then
+    if ! wget -c https://raw.githubusercontent.com/wn12cn/www.wn12.cn/master/UnixBench5.1.3.tgz; then
         echo "Failed to download UnixBench5.1.3.tgz, please download it to ${cur_dir} directory manually and try again."
         exit 1
     fi

@@ -113,12 +113,7 @@ speed_test() {
 }
 
 speed() {
-    speed_test '' 'Speedtest.net'
-    speed_test '37390' 'Hong Kong   HGC'
-    speed_test '63143' 'Hong Kong   HKT'
-    speed_test '24333' 'Tokyo       RMN'
-    speed_test '73226' 'Seoul       GSL'
-    speed_test '48402' 'Seoul        KT'
+    speed_test '' '机房附近节点'
     speed_test '5396'  'SuZhou   5G  CT'
     speed_test '59386' 'HangZhou     CT'
     speed_test '59387' 'NingBo       CT'

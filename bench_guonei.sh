@@ -114,6 +114,12 @@ speed_test() {
 
 speed() {
     speed_test '' 'Speedtest.net'
+    speed_test '37390' 'Hong Kong   HGC'
+    speed_test '63143' 'Hong Kong   HKT'
+    speed_test '50686' 'Tokyo       GSL'
+    speed_test '24333' 'Tokyo       RMN'
+    speed_test '73226' 'Seoul       GSL'
+    speed_test '48402' 'Seoul        KT'
     speed_test '3633'  'ShangHai     CT'
     speed_test '1759'  'GuangZhou    CT'
     speed_test '5396'  'NanJing  5G  CT'
@@ -131,6 +137,7 @@ speed() {
     speed_test '16204' 'SuZhou       CM'
     speed_test '3927'  'JiangSu      CM'
     speed_test '5122'  'WuXi         CM'
+    speed_test '30852' 'Kunshan     EDU'
 }
 
 io_test() {

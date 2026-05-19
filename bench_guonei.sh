@@ -113,7 +113,7 @@ speed_test() {
 }
 
 speed() {
-    speed_test '' '机房附近节点'
+    speed_test ''      '机房附近节点     '
     speed_test '5396'  'SuZhou   5G  CT'
     speed_test '59386' 'HangZhou     CT'
     speed_test '59387' 'NingBo       CT'

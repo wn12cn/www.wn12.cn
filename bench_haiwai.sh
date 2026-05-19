@@ -113,14 +113,12 @@ speed_test() {
 }
 
 speed() {
-    speed_test '' 'Speedtest.net'
+    speed_test '' '机房就近随机节点'
     speed_test '7190'  'Los Angeles, US'
     speed_test '22288' 'Dallas, US'
     speed_test '64420' 'Montreal, CA'
     speed_test '61933' 'Paris, FR'
     speed_test '41423' 'Amsterdam, NL'
-    speed_test '5396'  'Suzhou, CN'
-    speed_test '59387' 'Ningbo, CN'
     speed_test '32155' 'Hong Kong, CN'
     speed_test '13623' 'Singapore, SG'
     speed_test '65092' 'Taipei, CN'

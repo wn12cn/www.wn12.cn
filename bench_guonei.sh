@@ -114,16 +114,16 @@ speed_test() {
 
 speed() {
     speed_test ''      '机房附近节点     '
-    speed_test '5396'  'SuZhou   5G  CT'
-    speed_test '59386' 'HangZhou     CT'
-    speed_test '59387' 'NingBo       CT'
-    speed_test '36663' 'Zhenjiang 5G CT'
-    speed_test '43752' 'BeiJing      CU'
-    speed_test '24447' 'ShangHai 5G  CU'
-    speed_test '5097'  'NanChang     CU'
-    speed_test '12582' 'BeiJing      CM'
-    speed_test '16204' 'SuZhou       CM'
-    speed_test '30852' 'Kunshan     EDU'
+    speed_test '5396'  '苏州电信5G       '
+    speed_test '59386' '杭州电信         '
+    speed_test '59387' '宁波电信         '
+    speed_test '36663' '镇江电信5G       '
+    speed_test '43752' '北京联通         '
+    speed_test '24447' '上海联通5G       '
+    speed_test '5097'  '南昌联通         '
+    speed_test '12582' '北京移动         '
+    speed_test '16204' '苏州移动         '
+    speed_test '30852' '昆山教育         '
 }
 
 io_test() {

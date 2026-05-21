@@ -118,6 +118,7 @@ speed() {
     speed_test '59386' 'HangZhou     CT'
     speed_test '59387' 'NingBo       CT'
     speed_test '36663' 'Zhenjiang 5G CT'
+    speed_test '43752' 'BeiJing      CU'
     speed_test '24447' 'ShangHai 5G  CU'
     speed_test '5097'  'NanChang     CU'
     speed_test '12582' 'BeiJing      CM'

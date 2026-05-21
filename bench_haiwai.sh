@@ -114,12 +114,12 @@ speed_test() {
 
 speed() {
     speed_test ''      '机房附近节点     '
-    speed_test '7190'  'Los Angeles  US'
+    speed_test '74860' 'Los Angeles  US'
     speed_test '22288' 'Dallas       US'
     speed_test '64420' 'Montreal     CA'
     speed_test '61933' 'Paris        FR'
     speed_test '41423' 'Amsterdam    NL'
-    speed_test '13623' 'Singapore    SG'
+    speed_test '13058' 'Singapore    SG'
     speed_test '48463' 'Tokyo        JP'
     speed_test '73226' 'Seoul        KR'
     speed_test '65092' 'Taipei       CN'
